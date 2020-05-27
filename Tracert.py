@@ -184,4 +184,6 @@ def main():
     tr.start()
 
 
+"""Launch program from a terminal via next command
+    python Tracert.py <IP-address or domain name>"""
 main()
