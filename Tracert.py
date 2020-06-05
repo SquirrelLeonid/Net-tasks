@@ -4,7 +4,6 @@ import sys
 import select
 import re
 
-
 def is_ip_correct(hostname):
     ip_parts = hostname.strip().split('.')
     if len(ip_parts) != 4:
