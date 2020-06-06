@@ -1,8 +1,9 @@
-import socket
-import subprocess
-import sys
-import select
 import re
+import sys
+import socket
+import select
+import subprocess
+
 
 def is_ip_correct(hostname):
     ip_parts = hostname.strip().split('.')

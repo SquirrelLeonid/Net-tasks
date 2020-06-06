@@ -1,9 +1,9 @@
-import socket
-import argparse
 import sys
-import struct
-import datetime
 import copy
+import socket
+import struct
+import argparse
+import datetime
 
 
 def is_correct_IP(hostname):
